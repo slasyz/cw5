@@ -31,7 +31,7 @@ y_euler_rev = eulerrev([1; 1], h, A);
 disp('Решение обратным методом Эйлера в тех же точках (погрешности): ')
 main2disp(y_euler_rev, y_exact)
 disp('')
-fprintf('lambda(W) = %f\n', 1/(1 - h*eig(A)))
+fprintf('lambda(W) = %f\n', 1./(1 - h*eig(A)))
 disp('')
 disp('=============================================')
 disp('')
